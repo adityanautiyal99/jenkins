@@ -58,7 +58,7 @@ node {
         publishHTML(target : [allowMissing: false, alwaysLinkToLastBuild: true, keepAll: false, reportDir: '/var/lib/jenkins/workspace/pi/target/site', reportFiles: 'surefire-report.html', reportName: 'HTML Report', reportTitles: ''])
         }
         else{
-                notifyFailed()
+             notifyFailed()
         }
     }
 }
